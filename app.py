@@ -59,14 +59,5 @@ col_m1.metric("Précision (Accuracy)", "85%", "+2%")
 col_m2.metric("Rappel (Recall)", "78%", "-1%")
 col_m3.metric("F1-Score", "81%")
 
-st.info("Note : Le modèle utilise un algorithme de Random Forest pour prédire le Churn.")
+st.info("Note : Le modèle utilise un algorithme de Logistic Regression pour prédire le Churn.")
 
-
-# --- Section 4 : L'intérêt de Streamlit ---
-with st.expander("💡 Pourquoi utiliser Streamlit en Data Science ?"):
-    st.write("""
-    1. **Rapidité :** Permet de transformer un script Python en application web en quelques minutes sans compétences Front-end (HTML/CSS/JS).
-    2. **Interactivité :** Les widgets (sliders, boutons) permettent aux parties prenantes de manipuler les données en temps réel.
-    3. **Partage :** Facilite la démonstration de prototypes de modèles de Machine Learning.
-    4. **Écosystème :** Intégration native avec Pandas, Matplotlib, et Plotly.
-    """)
